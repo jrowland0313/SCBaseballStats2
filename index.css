@@ -1,0 +1,63 @@
+/* Styles for the header */
+header {
+    background-color: #5b0404; /* Dark red background */
+    color: #000; /* Black text color */
+    padding: 20px; /* Padding around the header */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    color: #fff; /* White text color */
+}
+
+/* Styles for the navigation pane */
+nav {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding for navigation items */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Display items horizontally */
+    margin-right: 10px; /* Add some space between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    font-weight: bold;
+}
+
+/* Styles for the standings */
+#Standings {
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding for standings */
+}
+
+#Standings h1 {
+    color: #fff; /* White text color */
+    background-color: #5b0404; /* Dark red background */
+    padding: 10px; /* Add padding to the h1 elements */
+}
+
+#Standings h2 {
+    color: #fff; /* White text color */
+    background-color: #5b0404; /* Dark red background */
+    display: inline-block; /* Display SEC and Overall headings side by side */
+    margin-right: 20px; /* Add some space between headings */
+}
+
+/* Set dark red background for the entire HTML document */
+html, body {
+    background-color: #5b0404; /* Dark red background */
+}
